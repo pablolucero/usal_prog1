@@ -60,6 +60,7 @@ int main() {
 }
 
 float calcularPromedio(struct jugador unJugador) {
+	// casteo la division pq sino me trunca el resultado dejandome solo la parte entera
 	float promedio = (float) unJugador.golesConvertidos / unJugador.partidosJugados;
 	return promedio;
 }
